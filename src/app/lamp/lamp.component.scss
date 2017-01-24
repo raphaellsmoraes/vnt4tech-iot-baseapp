@@ -1,0 +1,35 @@
+.transition{
+    transition: all 1s;
+}
+
+.lamp {
+    width: 480px;
+    height: auto;
+    @extend .transition;
+
+        .cls-1 {
+        fill:#148c9b;
+        }
+        .cls-2 {
+            fill:#107b84;
+        }
+        .cls-3 {
+            fill:#117f89;
+        }
+        .cls-4 {
+            fill:#328f99;
+        }
+        .cls-5 {
+            fill:#169688;
+        }
+        .cls-6 {
+            fill:#107B84;
+        }
+        .cls-7 {
+            fill:#328F99;
+        }
+        .cls-8 {
+                fill: url(#linear-gradient);
+                fill-opacity: 0;
+        }  
+}
